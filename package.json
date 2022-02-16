@@ -1,0 +1,24 @@
+{
+	"name": "twitterbot",
+	"version": "1.0.0",
+	"description": "twitterbot",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mehm8128/TwitterBot.git"
+	},
+	"author": "mehm8128",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/mehm8128/TwitterBot/issues"
+	},
+	"homepage": "https://github.com/mehm8128/TwitterBot#readme",
+	"type": "module",
+	"dependencies": {
+		"dotenv": "^16.0.0",
+		"twitter-api-v2": "^1.10.3"
+	}
+}
