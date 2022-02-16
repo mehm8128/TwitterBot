@@ -15,7 +15,7 @@ const stream = await client2.v2.searchStream({
 stream.autoReconnect = true
 
 stream.on(ETwitterStreamEvent.Data, async (tweet) => {
-	if (tweet.data.author_id !== "mehm8128") {
+	if (tweet.data.author_id !== "1034716117556592640") {
 		await client.v2.reply("こんにちは！自動返信機能です", tweet.data.id)
 		console.log(tweet.data)
 	}
